@@ -1,0 +1,23 @@
+# CogniRename Dependencies - Windows Python 3.13 対応版
+# Windows環境でのdlibビルドエラー回避版
+
+# 画像処理・顔認識 (dlib代替)
+# Python 3.13用のプリビルトwheel使用
+# -f https://github.com/eddiehe99/dlib-whl/releases/download/v19.24.9-alpha/
+face-recognition>=1.3.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Web UI
+click>=8.1.0
+streamlit>=1.28.0
+
+# 開発・テスト
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# ユーティリティ
+tqdm>=4.65.0 
